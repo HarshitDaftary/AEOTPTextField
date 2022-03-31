@@ -11,7 +11,7 @@ import AEOTPTextField
 class ViewController: UIViewController {
 
     // MARK: Properties
-    @IBOutlet weak var otpTextField: AEOTPTextField!
+    @IBOutlet weak var otpTextField: HDOTPTextField!
     let staticCode = "112233"
     
     // MARK: Lifecycle

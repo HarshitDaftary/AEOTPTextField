@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0484BDD8FFAB7889DEE2CB05A8B1A322 /* AEOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93579050EEB6CCDD303AE6B20030A916 /* AEOTPTextField.swift */; };
+		0484BDD8FFAB7889DEE2CB05A8B1A322 /* HDOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93579050EEB6CCDD303AE6B20030A916 /* HDOTPTextField.swift */; };
 		076EDBF7D1D8DEED81A3DAE53F2995AE /* Pods-AEOTPTextFieldExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977A1316139E1A6B2D912F7C8B8C3ED /* Pods-AEOTPTextFieldExample-dummy.m */; };
 		401DE80B4D2210D1CF1A01642D84C3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4445D029CB1946ACE1824E3274A05814 /* Pods-AEOTPTextField-AEOTPTextFieldTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA04A1D5B11F71C64E4580AA2C67ED44 /* Pods-AEOTPTextField-AEOTPTextFieldTests-dummy.m */; };
@@ -36,18 +36,18 @@
 /* Begin PBXFileReference section */
 		0977A1316139E1A6B2D912F7C8B8C3ED /* Pods-AEOTPTextFieldExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AEOTPTextFieldExample-dummy.m"; sourceTree = "<group>"; };
 		099D7DD5753379D25DA47F0066E80B58 /* Pods-AEOTPTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEOTPTextField.release.xcconfig"; sourceTree = "<group>"; };
-		0D0DF48397A1240DD963C4729D12E40A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D0DF48397A1240DD963C4729D12E40A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		15157FE6C5A660251219506DAD5DAB65 /* AEOTPTextFieldImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextFieldImplementation.swift; path = AEOTPTextField/Source/AEOTPTextFieldImplementation.swift; sourceTree = "<group>"; };
 		16EB9AFF4BF2BF4686CDFEE0B942F440 /* Pods-AEOTPTextField-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AEOTPTextField-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BCF40F4743C46059E5F6E10EED71DEC /* Pods-AEOTPTextFieldExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AEOTPTextFieldExample.modulemap"; sourceTree = "<group>"; };
 		1CBD488C4DCD492542C1BFFC01F83B3F /* Pods-AEOTPTextField-AEOTPTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEOTPTextField-AEOTPTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
-		20D9304B5FB1F35256492747DDF77832 /* Pods_AEOTPTextFieldExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AEOTPTextFieldExample.framework; path = "Pods-AEOTPTextFieldExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D9304B5FB1F35256492747DDF77832 /* Pods_AEOTPTextFieldExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AEOTPTextFieldExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AA3992E34707B60A80C09181F6F054 /* Pods-AEOTPTextFieldExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEOTPTextFieldExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		26A204CED88A291B6C209BD18F49125F /* Pods-AEOTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEOTPTextField-Info.plist"; sourceTree = "<group>"; };
 		339423EC98C061A029A4A24FF4AE5C53 /* AEOTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AEOTPTextField-dummy.m"; sourceTree = "<group>"; };
 		34451661C3DB878F1FEF28E83CFF4916 /* Pods-AEOTPTextField-AEOTPTextFieldTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEOTPTextField-AEOTPTextFieldTests-Info.plist"; sourceTree = "<group>"; };
-		4386FB61A14A2FD9DB8DCEB6C2B6D2E6 /* Pods_AEOTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AEOTPTextField.framework; path = "Pods-AEOTPTextField.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A83FD1B5259C9750A5C05EB317E5E57 /* Pods_AEOTPTextField_AEOTPTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AEOTPTextField_AEOTPTextFieldTests.framework; path = "Pods-AEOTPTextField-AEOTPTextFieldTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4386FB61A14A2FD9DB8DCEB6C2B6D2E6 /* Pods_AEOTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A83FD1B5259C9750A5C05EB317E5E57 /* Pods_AEOTPTextField_AEOTPTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AEOTPTextField_AEOTPTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC066B6B290360BA27034157A657B50 /* AEOTPTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AEOTPTextField-Info.plist"; sourceTree = "<group>"; };
 		70376258D149663D7CF3EE1456AB03EF /* Pods-AEOTPTextField-AEOTPTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEOTPTextField-AEOTPTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -57,11 +57,11 @@
 		7CF006020217B9BA14BA021AA992ED9B /* Pods-AEOTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AEOTPTextField-dummy.m"; sourceTree = "<group>"; };
 		87EA4603C81E89E54F8DB9F1C738DD9E /* AEOTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-prefix.pch"; sourceTree = "<group>"; };
 		8BDDFC79B9874F19BCFFBD2EE2DEEBEA /* AEOTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AEOTPTextField-umbrella.h"; sourceTree = "<group>"; };
-		93579050EEB6CCDD303AE6B20030A916 /* AEOTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AEOTPTextField.swift; path = AEOTPTextField/Source/AEOTPTextField.swift; sourceTree = "<group>"; };
+		93579050EEB6CCDD303AE6B20030A916 /* HDOTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HDOTPTextField.swift; path = AEOTPTextField/Source/HDOTPTextField.swift; sourceTree = "<group>"; };
 		97769C71CD53CEDD02D4101DCADDD919 /* Pods-AEOTPTextFieldExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AEOTPTextFieldExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99DAD76E7A3B60F7FD7A65613F038900 /* Pods-AEOTPTextFieldExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEOTPTextFieldExample.release.xcconfig"; sourceTree = "<group>"; };
-		9A2CB70DE91ADBC72670F59D7F192516 /* AEOTPTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AEOTPTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2CB70DE91ADBC72670F59D7F192516 /* HDOTPTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HDOTPTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F60B53C7B9FE342ABE637B62EE24ED4 /* Pods-AEOTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AEOTPTextField-umbrella.h"; sourceTree = "<group>"; };
 		A10631B02B27A56A3353C5D6C5CF8404 /* Pods-AEOTPTextField-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEOTPTextField-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3EFC1BEC08484FC3DA95A2B04D70C11 /* Pods-AEOTPTextField-AEOTPTextFieldTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AEOTPTextField-AEOTPTextFieldTests-umbrella.h"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		C5168B49AD5370DB6A1B02260FE0AD00 /* AEOTPTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AEOTPTextField.xcconfig; sourceTree = "<group>"; };
 		CFDF6400EB0682C99A5E5E68000E7291 /* Pods-AEOTPTextFieldExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AEOTPTextFieldExample.debug.xcconfig"; sourceTree = "<group>"; };
 		D0B3A33340FE1793B24D625C026FA34C /* AEOTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AEOTPTextField.modulemap; sourceTree = "<group>"; };
-		E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AEOTPTextField.framework; path = AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93415738A8469A1380987A9DBCB1D06 /* AEOTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AEOTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65999D93DA405CF79BC99FD3493C2AD /* Pods-AEOTPTextField-AEOTPTextFieldTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEOTPTextField-AEOTPTextFieldTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FB50C5EA2C41BC25CA36123F3EA93F0D /* Pods-AEOTPTextFieldExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AEOTPTextFieldExample-Info.plist"; sourceTree = "<group>"; };
 		FCAB2A0A93D4CB5A14EF2901A5115D9E /* Pods-AEOTPTextField-AEOTPTextFieldTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AEOTPTextField-AEOTPTextFieldTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		1D6FC0D95B497E394DED23EBA313D921 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9A2CB70DE91ADBC72670F59D7F192516 /* AEOTPTextField.podspec */,
+				9A2CB70DE91ADBC72670F59D7F192516 /* HDOTPTextField.podspec */,
 				0D0DF48397A1240DD963C4729D12E40A /* LICENSE */,
 			);
 			name = Pod;
@@ -152,7 +152,7 @@
 		1EF4C70473C07C96C2492A9C00C16642 /* AEOTPTextField */ = {
 			isa = PBXGroup;
 			children = (
-				93579050EEB6CCDD303AE6B20030A916 /* AEOTPTextField.swift */,
+				93579050EEB6CCDD303AE6B20030A916 /* HDOTPTextField.swift */,
 				15157FE6C5A660251219506DAD5DAB65 /* AEOTPTextFieldImplementation.swift */,
 				1D6FC0D95B497E394DED23EBA313D921 /* Pod */,
 				4F48838A303802520C643EC524427BB3 /* Support Files */,
@@ -447,7 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F758703B7856D8756FE2113414468CA0 /* AEOTPTextField-dummy.m in Sources */,
-				0484BDD8FFAB7889DEE2CB05A8B1A322 /* AEOTPTextField.swift in Sources */,
+				0484BDD8FFAB7889DEE2CB05A8B1A322 /* HDOTPTextField.swift in Sources */,
 				79D30AD8BB318649D5659B09F8064B48 /* AEOTPTextFieldImplementation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,7 +26,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1k3-Qc-QqU" customClass="AEOTPTextField" customModule="AEOTPTextField">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1k3-Qc-QqU" customClass="HDOTPTextField" customModule="AEOTPTextField">
                                         <rect key="frame" x="0.0" y="40.5" width="354" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="C2e-cZ-vK6"/>

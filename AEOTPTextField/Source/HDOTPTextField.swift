@@ -12,7 +12,7 @@ public protocol AEOTPTextFieldDelegate: AnyObject {
     func didUserFinishEnter(the code: String)
 }
 
-public class AEOTPTextField: UITextField {
+public class HDOTPTextField: UITextField {
 
     public var otpDefaultCharacter = ""
     public var otpBackgroundColor: UIColor = UIColor(red: 0.949, green: 0.949, blue: 0.949, alpha: 1)
@@ -125,7 +125,7 @@ public class AEOTPTextField: UITextField {
     }
 }
 
-extension AEOTPTextField: AEOTPTextFieldImplementationProtocol {
+extension HDOTPTextField: AEOTPTextFieldImplementationProtocol {
     func digitalLabelsCount() -> Int {
         digitLabels.count
     }
