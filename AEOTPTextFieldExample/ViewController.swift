@@ -19,7 +19,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         setupOTPTextField()
     }
-
+    @IBAction func btnClearTapped(_ sender: Any) {
+        otpTextField.resetTextfield()
+    }
+    
     // MARK: Methods
     func setupOTPTextField() {
         otpTextField.otpDelegate = self

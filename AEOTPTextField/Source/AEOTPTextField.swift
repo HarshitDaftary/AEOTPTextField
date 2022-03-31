@@ -55,6 +55,7 @@ public class AEOTPTextField: UITextField {
     public func resetTextfield(){
         for label in digitLabels {
             label.text = ""
+            label.backgroundColor = otpBackgroundColor
         }
         text = ""
     }
